@@ -1,0 +1,42 @@
+// colors
+$Dark-Cyan: hsl(180, 29%, 50%);
+$Light-Grayish-Cyan : hsl(180, 52%, 96%);
+$cardBg:hsl(180, 31%, 95%);
+$text-color:hsl(180, 8%, 52%);
+$heading: hsl(180, 14%, 20%);
+$mobile:375px;
+$tablette:435px;
+$desktop:1100px;
+
+// mixin
+@mixin mobile{
+    @media  screen and (max-width:$mobile) {
+        @content;
+    }
+}
+
+@mixin tablette{
+    @media  screen and (min-width:$tablette) {
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media  screen and (min-width:$desktop) {
+        @content
+    }
+}
+
+
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.9rem;
+}
