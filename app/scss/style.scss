@@ -27,7 +27,8 @@ body{
 // filter bar
 .jobs-filterMenu{
     background-color: white;
-    height:5rem;
+    height:auto;
+    min-height:6rem;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -35,6 +36,18 @@ body{
     padding-inline: 1.5rem;
     box-shadow: 0 15px 6px -6px #999;
     top: -3.2rem;
+    ul li:after{
+        content: '';
+        height:1rem;
+        width:1rem;
+        padding-block: 10px;
+         transform: translateX(25px);
+         cursor: pointer;
+        display: block;
+        background-color:$heading;
+        background-image: url(/app/images/icon-remove.svg);
+        background-repeat: no-repeat;
+    }
     @include tablette{
         margin: 1rem;
     }
@@ -42,6 +55,7 @@ body{
     color: $Dark-Cyan;
     font-weight: bold;
     font-size: 1.1rem;
+    cursor: pointer;
   }
 }
 // jobs card
@@ -185,24 +199,30 @@ body{
     height: fit-content;
     flex-wrap: wrap;
     
-    .skill-name{
-        color:$Dark-Cyan ;
-        background-color: $Light-Grayish-Cyan;
-        margin-inline: 10px;
-        font-weight: bold;
-        display: inline-flex;
-        justify-content: center;
-        padding: 8px;
-        transition:0.4s;
-        margin:5px 1rem;
-        &:hover{
-            background-color: $Dark-Cyan;
-            color: white;
-        }
-    }
+    
 }
+
+
 
 &:hover{
     transform: translateY(-10px);
 }
 }
+
+
+.skill-name{
+    color:$Dark-Cyan ;
+    background-color: $Light-Grayish-Cyan;
+    margin-inline: 10px;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: center;
+    padding: 8px;
+    transition:0.4s;
+    margin:5px 1rem;
+    &:hover{
+        background-color: $Dark-Cyan;
+        color: white;
+    }
+}
+

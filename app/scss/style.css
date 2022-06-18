@@ -54,7 +54,8 @@ body::before {
 
 .jobs-filterMenu {
   background-color: white;
-  height: 5rem;
+  height: auto;
+  min-height: 6rem;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,6 +72,20 @@ body::before {
   top: -3.2rem;
 }
 
+.jobs-filterMenu ul li:after {
+  content: '';
+  height: 1rem;
+  width: 1rem;
+  padding-block: 10px;
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
+  cursor: pointer;
+  display: block;
+  background-color: #2c3a3a;
+  background-image: url(/app/images/icon-remove.svg);
+  background-repeat: no-repeat;
+}
+
 @media screen and (min-width: 900px) {
   .jobs-filterMenu {
     margin: 1rem;
@@ -81,6 +96,7 @@ body::before {
   color: #5ba4a4;
   font-weight: bold;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .job {
@@ -277,7 +293,12 @@ body::before {
       flex-wrap: wrap;
 }
 
-.job__skills .skill-name {
+.job:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.skill-name {
   color: #5ba4a4;
   background-color: #effafa;
   margin-inline: 10px;
@@ -294,13 +315,8 @@ body::before {
   margin: 5px 1rem;
 }
 
-.job__skills .skill-name:hover {
+.skill-name:hover {
   background-color: #5ba4a4;
   color: white;
-}
-
-.job:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
 }
 /*# sourceMappingURL=style.css.map */
