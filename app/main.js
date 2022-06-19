@@ -62,29 +62,3 @@ function addSkill(element){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// console.log('front end developer css javascript'.includes('front end developer javascript css'))
-    //  function jobFilter(skill){
-    //     let skillName=skill.textContent;
-    //     jobPost.forEach(job=>{
-    //     let isContainSkill=job.getAttribute('data-skills').includes(skillName.toLowerCase());
-    //      !isContainSkill ? job.classList.add('hidden') :'';
-            
-    //     })
-    // }
