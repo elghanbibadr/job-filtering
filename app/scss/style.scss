@@ -95,10 +95,11 @@ body{
         padding:  2rem;
     }
     &__info{
+        // margin-right: 7rem;
       @include tablette{
         display: flex;
         padding-top: 10px;
-       
+        
       }
     }
     &__desc{
@@ -141,15 +142,20 @@ body{
 
    &__featuredLogo{
     background-color: $heading;
-    margin-left: 6px;
+    margin-left: 4px;
    }
 
    &__newlogo,&__featuredLogo{
     color: white;
-    padding: 5px 9px;
+    padding: 5px 10px;
     font-weight: bold;
-    border-radius: 14px;
-    letter-spacing: -0.5px;
+    border-radius: 16px;
+    letter-spacing: 0.1px;
+    font-size: 0.7rem;
+    @include desktop{
+        font-size: 1rem;
+        letter-spacing: -0.5px;
+    }
    }
 
    &__title{
@@ -176,9 +182,7 @@ body{
     }
     li{
         color: $text-color;
-        margin-right: 14px;
-        // font-weight: bold !important;
-   
+        margin-right: 14px;   
         &:nth-child(2)::before,&:nth-child(3)::before{
             content: '';
             height: 4px;
