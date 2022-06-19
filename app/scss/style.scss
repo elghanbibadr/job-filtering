@@ -36,17 +36,18 @@ body{
     padding-inline: 1.5rem;
     box-shadow: 0 15px 6px -6px #999;
     top: -3.2rem;
-     ul li{
-         position: relative;
-     }
+    ul li{
+        position: relative;
+    }
      ul li::after{
          content: '';
-         height:31px;
+         height:33px;
          width:25px;
          padding-block: 10px;
-         position: absolute;
-         left: 4rem;
+        position: absolute;
+          left:100%;
          top: 1px;
+
         
           cursor: pointer;
          display: inline-block;
@@ -55,6 +56,11 @@ body{
          background-position: center;
          background-image: url(/app/images/icon-remove.svg);
          background-repeat: no-repeat;
+        
+         @include desktop{
+            height: 37px;
+             top: 0;
+         }
      }
     @include tablette{
         margin: 1rem;

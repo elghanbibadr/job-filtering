@@ -31,6 +31,7 @@ function addSkill(element){
       filteredSkills.removeChild(element);
      storageOfSelectedSkills.pop(element.textContent);
       updateJobs();
+      console.log(storageOfSelectedSkills,element)
       
 }
 

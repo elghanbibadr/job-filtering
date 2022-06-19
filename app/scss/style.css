@@ -78,11 +78,11 @@ body::before {
 
 .jobs-filterMenu ul li::after {
   content: '';
-  height: 31px;
+  height: 33px;
   width: 25px;
   padding-block: 10px;
   position: absolute;
-  left: 4rem;
+  left: 100%;
   top: 1px;
   cursor: pointer;
   display: inline-block;
@@ -91,6 +91,13 @@ body::before {
   background-position: center;
   background-image: url(/app/images/icon-remove.svg);
   background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobs-filterMenu ul li::after {
+    height: 37px;
+    top: 0;
+  }
 }
 
 @media screen and (min-width: 900px) {
