@@ -319,4 +319,8 @@ body::before {
   background-color: #5ba4a4;
   color: white;
 }
+
+.hidden {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
