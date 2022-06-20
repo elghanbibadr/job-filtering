@@ -1,11 +1,11 @@
-4165
+4167
 94C:\Users\21267\Desktop\static-job-listings-master\node_modules\caniuse-lite\data\regions\BI.js133001442649245747 0
 62C:\Users\21267\Desktop\static-job-listings-master\package.json133001443750998367 0
 67C:\Users\21267\Desktop\static-job-listings-master\node_modules\csso133001442642215305 1
 105C:\Users\21267\Desktop\static-job-listings-master\node_modules\htmlnano\docs\versioned_docs\version-2.0.0133001442652199428 1
 101C:\Users\21267\Desktop\static-job-listings-master\node_modules\posthtml-parser\dist\chunk.T6SARJYH.js133001442449721982 0
 94C:\Users\21267\Desktop\static-job-listings-master\node_modules\svgo\plugins\removeEmptyText.js133001442640558105 0
-54C:\Users\21267\Desktop\static-job-listings-master\dist133001445560438358 1
+54C:\Users\21267\Desktop\static-job-listings-master\dist133002008706774501 1
 71C:\Users\21267\Desktop\static-job-listings-master\node_modules\css-what133001442606800045 1
 87C:\Users\21267\Desktop\static-job-listings-master\node_modules\node-addon-api\nothing.c133001442434827635 0
 101C:\Users\21267\Desktop\static-job-listings-master\node_modules\css-tree\lib\syntax\node\Identifier.js133001442644593512 0
@@ -44,7 +44,7 @@
 62C:\Users\21267\Desktop\static-job-listings-master\node_modules133001442785451590 1
 101C:\Users\21267\Desktop\static-job-listings-master\node_modules\source-map\lib\source-map-generator.js133001442596445109 0
 104C:\Users\21267\Desktop\static-job-listings-master\node_modules\caniuse-lite\data\features\textcontent.js133001442747403752 0
-60C:\Users\21267\Desktop\static-job-listings-master\index.html133001444416564313 0
+60C:\Users\21267\Desktop\static-job-listings-master\index.html133002008235862289 0
 87C:\Users\21267\Desktop\static-job-listings-master\node_modules\svgo\lib\svgo\jsAPI.d.ts133001442662013687 0
 90C:\Users\21267\Desktop\static-job-listings-master\node_modules\@parcel\events\lib\types.js133001442597456500 0
 71C:\Users\21267\Desktop\static-job-listings-master\node_modules\posthtml133001442567772937 1
@@ -870,6 +870,7 @@
 97C:\Users\21267\Desktop\static-job-listings-master\node_modules\type-fest\source\package-json.d.ts133001442615634821 0
 120C:\Users\21267\Desktop\static-job-listings-master\node_modules\dom-serializer\node_modules\entities\lib\maps\decode.json133001442571523736 0
 92C:\Users\21267\Desktop\static-job-listings-master\node_modules\terser\lib\compress\inline.js133001442632878552 0
+72C:\Users\21267\Desktop\static-job-listings-master\dist\index.6997de31.js133002008706403342 0
 88C:\Users\21267\Desktop\static-job-listings-master\node_modules\csso\lib\replace\Value.js133001442639622164 0
 86C:\Users\21267\Desktop\static-job-listings-master\node_modules\node-addon-api\index.js133001442601779045 0
 95C:\Users\21267\Desktop\static-job-listings-master\node_modules\nth-check\lib\esm\parse.d.ts.map133001442604379826 0
@@ -1588,6 +1589,7 @@
 100C:\Users\21267\Desktop\static-job-listings-master\node_modules\@swc\helpers\lib\_array_with_holes.js133001442532548382 0
 105C:\Users\21267\Desktop\static-job-listings-master\node_modules\@parcel\hash\parcel-hash.darwin-arm64.node133001442596963732 0
 114C:\Users\21267\Desktop\static-job-listings-master\node_modules\caniuse-lite\data\features\background-attachment.js133001442640428879 0
+76C:\Users\21267\Desktop\static-job-listings-master\dist\index.6997de31.js.map133002008706731893 0
 88C:\Users\21267\Desktop\static-job-listings-master\node_modules\msgpackr-extract\index.js133001442507779335 0
 80C:\Users\21267\Desktop\static-job-listings-master\node_modules\entities\lib\maps133001442599011540 1
 114C:\Users\21267\Desktop\static-job-listings-master\node_modules\caniuse-lite\data\features\extended-system-fonts.js133001442710968862 0
@@ -3820,7 +3822,7 @@
 109C:\Users\21267\Desktop\static-job-listings-master\node_modules\.bin\node-gyp-build-optional-packages-test.cmd133001442777206743 0
 131C:\Users\21267\Desktop\static-job-listings-master\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser133001442667534090 1
 137C:\Users\21267\Desktop\static-job-listings-master\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias133001442666994758 1
-61C:\Users\21267\Desktop\static-job-listings-master\app\main.js133001445246901614 0
+61C:\Users\21267\Desktop\static-job-listings-master\app\main.js133002006911655561 0
 139C:\Users\21267\Desktop\static-job-listings-master\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-exclude133001442667220004 1
 132C:\Users\21267\Desktop\static-job-listings-master\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback133001442667749593 1
 128C:\Users\21267\Desktop\static-job-listings-master\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main133001442668492052 1
@@ -4085,7 +4087,7 @@
 109C:\Users\21267\Desktop\static-job-listings-master\node_modules\@jridgewell\source-map\dist\source-map.mjs.map133001442568127029 0
 92C:\Users\21267\Desktop\static-job-listings-master\node_modules\@jridgewell\set-array\LICENSE133001442436558173 0
 97C:\Users\21267\Desktop\static-job-listings-master\node_modules\@jridgewell\set-array\package.json133001442461699751 0
-65C:\Users\21267\Desktop\static-job-listings-master\dist\index.html133001445559512317 0
+65C:\Users\21267\Desktop\static-job-listings-master\dist\index.html133002008706403342 0
 106C:\Users\21267\Desktop\static-job-listings-master\node_modules\@babel\highlight\node_modules\color-convert133001442572948380 1
 103C:\Users\21267\Desktop\static-job-listings-master\node_modules\@jridgewell\set-array\dist\set-array.mjs133001442573084122 0
 107C:\Users\21267\Desktop\static-job-listings-master\node_modules\@jridgewell\set-array\dist\set-array.mjs.map133001442503787922 0
